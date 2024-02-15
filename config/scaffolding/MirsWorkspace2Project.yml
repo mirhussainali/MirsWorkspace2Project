@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/mirhussainali/MirsWorkspace2Project
   gitUsername: mirhussainali
   gitBranch: main
+services:
+- serviceName: project.mirsworkspace2.integrations:EdgeFlow
+  packages:
+  - name: MirsWorkspace2Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
