@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: MirsWorkspace2Project
+  gitServerName: MirsGIT
+  gitUrl: https://github.com/mirhussainali/MirsWorkspace2Project
+  gitUsername: mirhussainali
+  gitBranch: main
