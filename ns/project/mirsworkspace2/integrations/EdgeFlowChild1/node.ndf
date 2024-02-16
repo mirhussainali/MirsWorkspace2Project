@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">mir.hussainali@softwareag.com</value>
-    <value name="createdDate">1708063337530</value>
-    <value name="lastModifiedDate">1708063337530</value>
+    <value name="lastModifiedBy">mir.hussainali@softwareag.com</value>
+    <value name="lastModifiedDate">1708063374626</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">171a2d60cbcc479392d14980d8ef5ff1</value>
+      <value name="id">3d6e2f2ac42842928092aecb3e7fc3bc</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">MirsDellERT1</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">EdgeFlowChild1</value>
     <value name="description"></value>
@@ -74,6 +73,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -92,6 +92,7 @@
         <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
