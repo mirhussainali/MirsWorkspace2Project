@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir.hussainali@softwareag.com</value>
-    <value name="lastModifiedDate">1708038015980</value>
+    <value name="lastModifiedDate">1708063350877</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">3d6e2f2ac42842928092aecb3e7fc3bc</value>
       <value name="group">default</value>
@@ -95,6 +95,11 @@
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="name">EdgeFlowChild1</value>
+        <value name="displayName">EdgeFlowChild1</value>
+        <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
   </record>

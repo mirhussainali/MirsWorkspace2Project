@@ -198,7 +198,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Edge Runtime Flow Log : Date is %value%</value>
+  <value name="xml">Mirs Repo Edge Runtime Flow Log : Date is %value%</value>
 </Values>
 </DATA>
 </MAPSET>

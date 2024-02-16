@@ -20,3 +20,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.mirsworkspace2.integrations:EdgeFlowChild1
+  packages:
+  - name: MirsWorkspace2Project
+    version: "1.0"
