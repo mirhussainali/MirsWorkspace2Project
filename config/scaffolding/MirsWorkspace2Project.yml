@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/mirhussainali/MirsWorkspace2Project
   gitUsername: mirhussainali
   gitBranch: main
+- name: DellPOC
+  gitServerName: MirsGIT
+  gitUrl: https://github.com/mirhussainali
+  gitUsername: mirhussainali
+  gitBranch: main
 services:
 - serviceName: project.mirsworkspace2.integrations:EdgeFlow
   packages:
