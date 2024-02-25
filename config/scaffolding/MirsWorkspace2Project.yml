@@ -35,3 +35,23 @@ services:
     version: "1.0"
   - name: DellPOC
     version: "1.0"
+- serviceName: DellEdgeServices.FlowServices:SendToRMQ
+  packages:
+  - name: DellPOC
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.flow:getLastError
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741

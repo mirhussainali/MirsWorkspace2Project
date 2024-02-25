@@ -46,12 +46,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir.hussainali@softwareag.com</value>
-    <value name="lastModifiedDate">1708829790562</value>
+    <value name="lastModifiedDate">1708829800355</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">171a2d60cbcc479392d14980d8ef5ff1</value>
+      <value name="id">3d6e2f2ac42842928092aecb3e7fc3bc</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">MirsDellERT1</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">EdgeFlow_ProcessMsg</value>
     <value name="description"></value>
