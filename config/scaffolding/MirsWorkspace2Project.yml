@@ -29,3 +29,9 @@ services:
   packages:
   - name: MirsWorkspace2Project
     version: "1.0"
+- serviceName: project.mirsworkspace2.integrations:EdgeFlow_ProcessMsg
+  packages:
+  - name: MirsWorkspace2Project
+    version: "1.0"
+  - name: DellPOC
+    version: "1.0"

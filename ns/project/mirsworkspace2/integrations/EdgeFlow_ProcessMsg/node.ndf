@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">mir.hussainali@softwareag.com</value>
-    <value name="createdDate">1708829345845</value>
-    <value name="lastModifiedDate">1708829345845</value>
+    <value name="lastModifiedBy">mir.hussainali@softwareag.com</value>
+    <value name="lastModifiedDate">1708829790562</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">171a2d60cbcc479392d14980d8ef5ff1</value>
       <value name="group">default</value>
@@ -58,6 +57,57 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <value name="name">TRY</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/0/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">DellPOC</value>
+          <value name="groupName">DellPOC;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">DellEdgeServices.FlowServices:SendToRMQ</value>
+          <value name="serviceName">DellEdgeServices.FlowServices:SendToRMQ</value>
+          <value name="displayName">SendToRMQ</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">CATCH</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">1</number>
+      </record>
+      <record name="/1/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">false</value>
+          <value name="displayName">getLastFailureCaught</value>
+          <value name="serviceName">pub.flow:getLastFailureCaught</value>
+          <double name="rank" type="Double">0.03</double>
+        </record>
+        <number name="ui_step_index" type="Long">4</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/1/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">EXIT</value>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
       </record>
