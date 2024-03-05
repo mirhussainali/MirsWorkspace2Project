@@ -208,4 +208,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.mirsworkspace2.integrations:EdgeFlowChild1">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
